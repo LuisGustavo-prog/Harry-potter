@@ -206,6 +206,8 @@ nav .n1:hover {
 
 .ul-series1 img:hover{
     border: 1px solid var(--cor2);
+    position: relative;
+    bottom: 10px;
 }
 
 .imagem {
