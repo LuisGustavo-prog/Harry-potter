@@ -46,9 +46,9 @@
    }
 
    .ul-series4 {
+    display: block;
     text-align: center;
     columns: 2;
-    text-align: center;
     }
 
     #ul-footer1, #ul-footer2, #ul-footer3 {

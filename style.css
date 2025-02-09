@@ -234,12 +234,12 @@ nav .n1:hover {
 }
 
 .ul-series4 {
-    text-align: center;
-    columns: 3;
+   columns: 3;
+   text-align: center;
 }
 
 .ul-series4 li {
-    padding: 15px;
+    padding: 10px;
 }
 
 .imagem2{
