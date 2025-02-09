@@ -27,7 +27,7 @@
    .ul-series1{
         display: block;
         columns: 2;
-        column-gap: 2;
+        column-gap: 0;
    }
 
    .movie {
@@ -38,7 +38,7 @@
    .ul-series2, .ul-series3 {
     display: flex;
     flex-direction: row;
-    column-gap: 2;
+    column-gap: 0;
    }
 
    .none {
