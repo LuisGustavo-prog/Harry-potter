@@ -1,7 +1,54 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 840px) {
+    #cobertor {
+        display: block;
+        padding: 520px 0px 10px 0px;
+    }
+
+    .harry-1, .harry-2 {
+        text-align: center;
+        padding-right: 50px;
+    }
+
+   .ul-series1 {
+        
+        display: block;
+        columns: 2;
+        column-gap: 2;
+   }
+
+   .movie {
+    padding-top: 20px;
+   }
+}
+
+@media screen and (max-width: 845px) {
+    br {
+        display: none;
+    }
+
+    .p1 {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 1060px) {
     .n {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    #vertical hr {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1710px) {
+    #vertical hr {
+        position: absolute;
+        bottom: 250px;
+        left: 40%;
     }
 }
