@@ -170,7 +170,7 @@ nav .n1:hover {
 }
 
 .image-varinha {
-    width: clamp(5px, 15vw, 200px);
+    width: clamp(20px, 13vw, 180px);
 }
 
 .itens-flex h1 {
@@ -199,7 +199,7 @@ nav .n1:hover {
 
 .imagem{
     border: 1px solid rgb(98, 0, 255);
-    width: clamp(150px, 15vw, 250px);
+    width: clamp(100px, 15vw, 250px);
 }
 
 .imagem:hover, .imagem2:hover{
