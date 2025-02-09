@@ -179,10 +179,6 @@ nav .n1:hover {
     padding: 0px 20px;
 }
 
-.ul-series1 img {
-    width: clamp(170px, 25vw, 300px);
-}
-
 .ul-series1 {
     display: flex;
     column-gap: 3em;
@@ -200,18 +196,15 @@ nav .n1:hover {
     text-decoration: underline;
 }
 
-.ul-series1 img{
+.imagem{
     border: 1px solid rgb(98, 0, 255);
+    width: clamp(180px, 15vw, 250px);
 }
 
-.ul-series1 img:hover{
+.imagem:hover{
     border: 1px solid var(--cor2);
     position: relative;
     bottom: 10px;
-}
-
-.imagem {
-    width: clamp(160px, 20vw, 300px);
 }
 
 
@@ -221,4 +214,21 @@ nav .n1:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+}
+
+.ul-series2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 4em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ul-series2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.ul-series2 a:hover{
+    text-decoration: underline;
 }
