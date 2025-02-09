@@ -104,12 +104,13 @@ nav .n1:hover {
     padding: 550px 0px 100px 0px;
 }
 
-.harry-1, .harry-2 {
-    padding-left: 60px;
+.imagem-logo, .descrição {
+    padding-left: 100px;
 }
 
-.section1 img {
-    width: clamp(300px, 35vw, 350px);
+.imagem-logo img {
+    width: clamp(300px, 35vw, 450px);
+    padding-left: 50px;
     padding-top: 40px;
 }
 
@@ -123,23 +124,23 @@ nav .n1:hover {
     transform: translate(-50% -50%); 
 }
 
-.harry-1 {
+.descrição {
     line-height: 1.8em;
     color: white;
 }
 
-.harry-1 h1 {
+.descrição h1 {
     font-size: clamp(1.3em, 1.6vw, 1.8em);
     padding-bottom: 20px;
     color: var(--cor2);
 }
 
-.harry-1 p {
-    font-size: clamp(0.9em, 1vw, 1.5em);
+.descrição p {
+    font-size: clamp(0.9em, 1.2vw, 1.7em);
     padding-bottom: 40px;
 }
 
-.harry-1 a {
+.descrição a {
     background-color: var(--cor);
     padding: 15px 30px;
     color: white;
@@ -148,7 +149,7 @@ nav .n1:hover {
     text-decoration: none;
 }
 
-.harry-1 a:hover {
+.descrição a:hover {
     background-color: var(--cor-hover);
     transition: background-color 0.5s ease;
 }
@@ -168,7 +169,7 @@ nav .n1:hover {
     align-items: center;
 }
 
-.itens-flex .img-vara {
+.image-varinha {
     width: clamp(10px, 15vw, 200px);
 }
 
@@ -187,12 +188,12 @@ nav .n1:hover {
     padding-bottom: 20px;
 }
 
-.ul-series1 a{
+.ul-series1 a, .ul-series2 a{
     color: white;
     text-decoration: none;
 }
 
-.ul-series1 a:hover{
+.ul-series1 a:hover, .ul-series2 a:hover{
     text-decoration: underline;
 }
 
@@ -201,14 +202,22 @@ nav .n1:hover {
     width: clamp(180px, 15vw, 250px);
 }
 
-.imagem:hover{
+.imagem:hover, .imagem2:hover{
     border: 1px solid var(--cor2);
     position: relative;
     bottom: 10px;
 }
 
 
-#img-container-section3 {
+.img-container-section3 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.315)), url(imagens/papel-de-fundo/universo1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#img-container-section4 {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.315)), url(imagens/papel-de-fundo/universo1.jpg);
     background-position: center top;
     background-repeat: no-repeat;
@@ -224,11 +233,53 @@ nav .n1:hover {
     padding-top: 10px;
 }
 
-.ul-series2 a{
+.ul-series4 {
+    text-align: center;
+    columns: 3;
+}
+
+.ul-series4 li {
+    padding: 15px;
+}
+
+.imagem2{
+    border: 1px solid rgb(98, 0, 255);
+    width: clamp(180px, 20vw, 400px);
+}
+
+#img-container-section5 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.836)), url(imagens/papel-de-fundo/castelo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.flex-row img{
+   padding: 80px 0px 50px 0px;
+}
+
+#ul-footer1, #ul-footer2, #ul-footer3 {
+    display: flex;
+    justify-content: center;
+}
+
+#ul-footer1 li, #ul-footer2 li, #ul-footer3 li {
+    padding: 10px;
+    text-align: center;
+}
+
+#ul-footer1 a, #ul-footer2 a, #ul-footer3 a {
     color: white;
     text-decoration: none;
 }
 
-.ul-series2 a:hover{
-    text-decoration: underline;
+#ul-footer3 {
+    padding: 0px 0px 80px 0px;
 }
